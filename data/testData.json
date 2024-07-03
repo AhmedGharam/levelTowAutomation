@@ -1,0 +1,25 @@
+{
+  "URL": "https://demo.nopcommerce.com",
+  "LoginData": {
+    "ValidCredentials": {
+      "Username": "omar",
+      "Password": "123"
+    },
+    "InvalidCredentials": {
+      "InvalidUsername": {
+        "Username": "ahmed",
+        "Password": "123"
+      },
+      "InvalidPassword": {
+        "Username": "omar",
+        "Password": "456"
+      }
+    }
+  },
+  "RegistrationData": {
+    "FirstName": "Ahmed",
+    "LastName": "Gharam",
+    "CompanyName": "iotblue",
+    "Password": "123456"
+  }
+}
