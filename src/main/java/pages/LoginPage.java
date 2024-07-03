@@ -6,8 +6,7 @@ import utils.MethodHandles;
 
 public class LoginPage extends MethodHandles {
     public LoginPage(WebDriver driver) {
-        super(driver);
-    }
+        super(driver);}
 
     private final By emailField = By.id("Email");
     private final By passwordField = By.id("Password");

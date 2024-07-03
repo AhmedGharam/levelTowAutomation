@@ -12,7 +12,6 @@ public class LoginTests extends Base {
     public void successLogin() throws FileNotFoundException {
         System.out.println(dataModel().URL);
         System.out.println(dataModel().loginData.validCredentials.Username);
-
         //LoginPage loginPage= homePage.clickOnLoginLink();
         //loginPage.loginFeature(dataModel().login.validCredentials.Username,dataModel().login.validCredentials.Password);
     }
