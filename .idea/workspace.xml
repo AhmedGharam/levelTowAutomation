@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28409859-6bbe-4d04-b818-aa8eb277c0cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/testData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/DataModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/InvalidCredentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/InvalidPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/InvalidUsername.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/LoginData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/RegistrationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/ValidCredentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/reader/ReadDataFromJson.java" afterDir="false" />
+    <list default="true" id="28409859-6bbe-4d04-b818-aa8eb277c0cd" name="Changes" comment="New structure">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/MethodHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MethodHandles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/loginTests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +61,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="dataModeling" />
       <recent name="pages" />
+      <recent name="dataModeling" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +74,20 @@
       <option name="presentableId" value="Default" />
       <updated>1719922094725</updated>
     </task>
+    <task id="LOCAL-00001" summary="New structure">
+      <option name="closed" value="true" />
+      <created>1720017779373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720017779373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="New structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -27,7 +27,7 @@ public class Base {
     @BeforeMethod
     public void goHome() throws FileNotFoundException {
         readDataFromJson = new ReadDataFromJson();
-        driver.get(readDataFromJson.readJsonFile().URL);
+        driver.get(dataModel().URL);
     }
 
     @AfterClass
