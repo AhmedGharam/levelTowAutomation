@@ -5,19 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28409859-6bbe-4d04-b818-aa8eb277c0cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data/testData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/DataModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/InvalidCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/InvalidPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/InvalidUsername.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/LoginData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/RegistrationData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dataModeling/ValidCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/reader/ReadDataFromJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/MethodHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MethodHandles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/loginTests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2igpUdz1OMtfr1M4Ecrtoe2QTSG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,13 +53,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.LoginTests.executor": "Run",
+    "git-widget-placeholder": "task01-29062024",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/ahmedgharam/IdeaProjects/levelTwoAutomation/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "/Users/ahmedgharam/IdeaProjects/levelTwoAutomation/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dataModeling" />
+      <recent name="pages" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
