@@ -8,17 +8,21 @@ public class HomePage extends MethodHandles {
     public HomePage(WebDriver driver){
         super(driver);
     }
+    private final By accountPageButton = By.cssSelector(".ico-account");
+    private final By successfullRegisterResult = By.cssSelector(".result");
+    private final By registrationErrorResult = By.cssSelector(".message-error.validation-summary-errors");
 
-    private final By loginLink = By.cssSelector(".ico-login");
-    private final By registerLink = By.cssSelector(".ico-register");
+    public String getLoginValidationText(){
+        return getText(accountPageButton,10);
+    }
 
-    public LoginPage clickOnLoginLink(){
-        click(loginLink,6);
-        return new LoginPage(driver);
+    public String getRegisterValidationText(){
+        return getText(successfullRegisterResult,5);
     }
-    public RegisterPage clickOnRegiterLink(){
-        click(registerLink,5);
-        return new RegisterPage(driver);
+
+    public String getRegisterErrorText(){
+        return getText(registrationErrorResult,5);
     }
+
 
 }

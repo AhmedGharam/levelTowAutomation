@@ -2,6 +2,6 @@ package dataModeling;
 
 public class LoginData {
 
-    public ValidCredentials validCredentials;
-    public InvalidCredentials invalidCredentials;
+    public ValidCredentials ValidCredentials;
+    public InvalidCredentials InvalidCredentials;
 }

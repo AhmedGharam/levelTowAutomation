@@ -14,12 +14,12 @@ public class RegisterPage extends MethodHandles {
     private final By companyNameField = By.id("Company");
     private final By passwordField = By.id("Password");
     private final By confirmPasswordField = By.id("ConfirmPassword");
-    private final By registerButton = By.cssSelector(".button-1.login-button");
+    private final By registerButton = By.id("register-button");
 
 
-    private void clickOnMaleRadioButton(String password){
+    /*private void clickOnMaleRadioButton(String password){
         sendKeys(passwordField,5,password);
-    }
+    }*/
 
     private void insertFirstName(String firstName){
         sendKeys(firstNameField,5,firstName);
@@ -36,21 +36,22 @@ public class RegisterPage extends MethodHandles {
     private void insertPassword(String password){
         sendKeys(passwordField,5,password);
     }
-    private void insertConfirmPassword(String confirmPassword){
-        sendKeys(confirmPasswordField,5,confirmPassword);
+    private void insertConfirmPassword(String password){
+        sendKeys(confirmPasswordField,5,password);
     }
     private void clickRegisterButton(){
-        click(registerButton,2);
+        click(registerButton,3);
     }
 
-    public void registerFeature(String firstName, String lastName, String email, String companyName, String password, String confirmPassword){
+    public HomePage registerFeature(String firstName, String lastName, String email, String companyName, String password){
         insertFirstName(firstName);
         insertLastName(lastName);
         insertEmail(email);
         insertCompanyName(companyName);
         insertPassword(password);
-        insertConfirmPassword(confirmPassword);
+        insertConfirmPassword(password);
         clickRegisterButton();
+        return new HomePage(driver);
     }
 
 

@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import pages.HomePage;
+import pages.LandingPage;
 import reader.ReadDataFromJson;
 
 import java.io.FileNotFoundException;
@@ -14,14 +14,14 @@ import java.io.FileNotFoundException;
 public class Base {
 
     protected WebDriver driver;
-    protected HomePage homePage;
+    protected LandingPage landingPage;
     protected ReadDataFromJson readDataFromJson;
 
     @BeforeClass
     public void setup(){
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        homePage = new HomePage(driver);
+        landingPage = new LandingPage(driver);
     }
 
     @BeforeMethod
