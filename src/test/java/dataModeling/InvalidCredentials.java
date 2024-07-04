@@ -1,6 +1,6 @@
 package dataModeling;
 
 public class InvalidCredentials {
-    public InvalidUsername invalidUsername;
-    public InvalidPassword invalidPassword;
+    public InvalidUsername InvalidUsername;
+    public InvalidPassword InvalidPassword;
 }

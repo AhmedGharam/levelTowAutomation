@@ -2,8 +2,8 @@
   "URL": "https://demo.nopcommerce.com",
   "LoginData": {
     "ValidCredentials": {
-      "Username": "omar",
-      "Password": "123"
+      "Username": "lolyloly@qa.team",
+      "Password": "Iotblue55$"
     },
     "InvalidCredentials": {
       "InvalidUsername": {
@@ -19,7 +19,8 @@
   "RegistrationData": {
     "FirstName": "Ahmed",
     "LastName": "Gharam",
+    "Email": "lolyloly@qa.team",
     "CompanyName": "iotblue",
-    "Password": "123456"
+    "Password": "Iotblue55$"
   }
 }

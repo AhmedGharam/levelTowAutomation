@@ -2,8 +2,7 @@ package dataModeling;
 
 public class DataModel {
     public String URL;
-    public LoginData loginData;
-
-    public RegistrationData registrationData;
+    public LoginData LoginData;
+    public RegistrationData RegistrationData;
 
 }
